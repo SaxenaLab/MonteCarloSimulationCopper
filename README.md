@@ -30,23 +30,40 @@ Each script provides a different role:
   minimze the effect of orientational selectivity for Cu(II) Q-band DEER.
   
 Details of Input
+
 -g and A values
+
   The script currently assumes g and A values for dHis-Cu(II)NTA spin-label. If the user wants to change these values to represent a different Cu(II) species, these
   values should be changed in the script itself. The A values specifically are in the units of Gauss.
+  
 -frequency
+
   The frequency of the DEER experiment should be inputted in units of GHz
+  
 -number of molecules
+
   We recommend to start with 10000 molecules.
+  
 -chi
+
   angle in degrees that represents the angle between g_parallel of Spin A and the interspin vector
+  
 -gamma
+
   angle in degrees that represents the angle between g_parallel of Spin A and the g_parallel of Spin B
+  
 -eta
+
   angle in degrees that represents the angle between g_perpendicular of Spin A and g_perpendicular of Spin B
+  
 -beta
+
   broadening parameter in units of Gauss
+  
 -alpha
+
   threshold parameter. If unsure, use the script 'Monte Carlo Alpha Determination.py' to get obtain a correct value
+  
 
 More details can be seen in the script itself. If you have any questions, please refer to xxx. Additionally, if you have any questions, feel free to contact
 Zikri Hasanbasri at zih12@pitt.edu
